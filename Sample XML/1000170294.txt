@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1000170294</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Anaheim hopes for NBA shot; Stern expresses doubt about Sacramento arena deal, as do Kings owners, who nearly moved team to Anaheim last year.</Title>
+      </TitleAtt>
+      <NumericDate>2012-04-14</NumericDate>
+      <StartDate>2012-04-14</StartDate>
+      <EndDate>2012-04-14</EndDate>
+      <AlphaDate>Apr 14, 2012</AlphaDate>
+      <Language>       
+         <RawLang>English</RawLang>
+     </Language>
+      <Language IsPrimary="true">       
+         <ISO>         
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+     </Language>
+      <Copyright>
+         <CopyrightData>(Copyright (c) 2012 Los Angeles Times)</CopyrightData>
+      </Copyright>
+      <PrintLocation>       
+         <StartPage>C.7</StartPage>
+         <Pagination>C.7</Pagination>
+         <DocSection>Sports; Part C; Sports Desk</DocSection>
+         <DocEdition>HOME EDITION</DocEdition>
+     </PrintLocation>
+      <ObjectIDs>       
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2633378291</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>68556292</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7683</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>ANGE</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>LATM120012362</PublisherXID>
+         </ObjectID>
+     </ObjectIDs>
+      <LexileScore>1520</LexileScore>
+      <Contributors>       
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Pugmire, Lance</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Pugmire</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Lance</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Lance Pugmire</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+     </Contributors>
+      <Terms>       
+         <CompanyTerm TermSource="ABI" PndxHeader="true">         
+            <CompanyNameAtt>
+               <CompanyName>Sacramento Kings</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>711211</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Stadiums</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="NA" PndxHeader="true">
+            <GenSubjValue>Professional basketball -- Sacramento Kings</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="NA" PndxHeader="true">
+            <Personal>Stern, David</Personal>
+         </Term>
+     </Terms>
+      <Abstract>
+         <Medium WordCount="48">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;On Thursday, Kings owners George, Joe and Gavin Maloof made a presentation to the NBA's relocation committee detailing their concerns about who would pay for pre-development costs, as well as rising political opposition to the $260 million in public funds to be spent on the Sacramento arena.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>       
+         <MappingVersion>$Header: $</MappingVersion>
+     </LegacyDataMapping>
+   </Obj>
+   <TextInfo>       
+      <Text WordCount="507" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;NBA Commissioner David Stern said Friday a new arena in Sacramento is "not going to happen," and lent his support to owners of the Sacramento Kings who have said the arena project has too many financial and political uncertainties to open on schedule in 2015.&lt;/p&gt;              &lt;p&gt;At a news conference at the NBA Board of Governors meeting in New York, Stern made no promise about the Kings' remaining in Sacramento beyond the 2012-13 season. "It just wouldn't pay for me to talk about anything beyond that," he said.&lt;/p&gt;              &lt;p&gt;A year ago the Kings nearly moved to the Honda Center in Anaheim before agreeing to stay in Sacramento while city officials tried to finalize plans for a new arena.&lt;/p&gt;              &lt;p&gt;In February the Maloof brothers, who own the Kings, and Sacramento Mayor Kevin Johnson reached a tentative deal for a new public and privately funded $391-million arena in downtown. Last month The Times reported the Maloofs were raising doubts about promises by officials to have the new arena built by opening night of the 2015-16 NBA season.&lt;/p&gt;              &lt;p&gt;A basketball official close to the situation, but not authorized to speak publicly, said Friday the Kings owners' "focus is still on Anaheim."&lt;/p&gt;              &lt;p&gt;"I'm protective of the Kings' rights to do what they can," Stern said. "[The deal] made the owners of the Kings incredibly uncomfortable. . . . It came with a cost that further burdened the team, and this was not a transaction they wanted to go forward with. That's their right."&lt;/p&gt;              &lt;p&gt;Previously, Stern has pushed to keep the Kings in Sacramento. The Maloofs said Friday they remain "committed to remaining the Sacramento Kings," although they gave the city a list of concerns that need to be resolved before the family would commit to the new arena.&lt;/p&gt;              &lt;p&gt;Johnson said, "It just feels like they were coming up with reasons . . . not to do the deal."&lt;/p&gt;              &lt;p&gt;Meanwhile, the 20-year-old Honda Center is in the process of making multimillion-dollar upgrades to increase its standing as an NBA-ready facility. Seattle also hopes to lure an NBA team.&lt;/p&gt;              &lt;p&gt;"Like most NBA fans I've been watching the recent developments with the Kings, and if they do leave Sacramento they should know that we would welcome them here," Anaheim Mayor Tom Tait said. "Anaheim is NBA ready. We have great fans and a first-class facility."&lt;/p&gt;              &lt;p&gt;On Thursday, Kings owners George, Joe and Gavin Maloof made a presentation to the NBA's relocation committee detailing their concerns about who would pay for pre-development costs, as well as rising political opposition to the $260 million in public funds to be spent on the Sacramento arena.&lt;/p&gt;              &lt;p&gt;"We were working to get a deal done, not to kill the deal. How do we negotiate when we don't hear back from the city?" George Maloof said at a news conference Friday.&lt;/p&gt;              &lt;p&gt;"It's fair to say the Maloofs don't want to do it," Stern said Friday. "If they had [said that] sooner, earlier, it could have saved some angst."&lt;/p&gt;              &lt;p&gt;--&lt;/p&gt;              &lt;p&gt;lance.pugmire@latimes.com&lt;/p&gt;              &lt;p&gt;twitter.com/latimespugmire&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+     </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>Los Angeles Times</Title>
+         <MpubId>46999</MpubId>
+         <SortTitle>Los Angeles Times</SortTitle>
+         <Qualifier>Los Angeles, Calif.</Qualifier>
+         <JournalCode>ANGE</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18860101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>Tribune Interactive, LLC</PublisherName>
+            <PublisherAddress>
+               <Address1>435 N. Michigan Ave.</Address1>
+               <Address2>-</Address2>
+               <City>Chicago</City>
+               <Province>IL</Province>
+               <ZipCode>60611</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7683</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>04583035</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60200.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">N</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PEERREVIEWEDFLAG">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>Los Angeles Times</Title>
+            <SortTitle>Los Angeles Times</SortTitle>
+            <Qualifier>Los Angeles, Calif.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7683</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>04583035</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60200.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>Los Angeles Daily Times</Title>
+               <Qualifier>Los Angeles, Calif.</Qualifier>
+               <EndIssueDate>18861022</EndIssueDate>
+               <CatalogNum>60200.A0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Dec 4, 1996</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19961204</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Apr 14, 2012</AlphaDate>
+         <StartDate>2012-04-14</StartDate>
+         <EndDate>2012-04-14</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>68556292</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+
+      
+   </DFS>
+   
+</RECORD>
