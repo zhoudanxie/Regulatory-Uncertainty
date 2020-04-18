@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1000178377</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Resurgent Beirut Offers Haven Amid Turmoil of Arab Spring</Title>
+      </TitleAtt>
+      <SubTitleAtt>
+         <SubTitle>[Foreign Desk]</SubTitle>
+      </SubTitleAtt>
+      <NumericDate>2012-04-14</NumericDate>
+      <StartDate>2012-04-14</StartDate>
+      <EndDate>2012-04-14</EndDate>
+      <AlphaDate>Apr 14, 2012</AlphaDate>
+      <Language>       
+         <RawLang>English</RawLang>
+     </Language>
+      <Language IsPrimary="true">       
+         <ISO>         
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+     </Language>
+      <Copyright>
+         <CopyrightData>Copyright New York Times Company Apr 14, 2012</CopyrightData>
+      </Copyright>
+      <PrintLocation>       
+         <StartPage>A.1</StartPage>
+         <Pagination>A.1</Pagination>
+         <DocSection>A</DocSection>
+     </PrintLocation>
+      <ObjectIDs>       
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2633405221</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>68554482</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7818</PMID>
+         </ObjectID>
+         <ObjectID>
+            <CODEN>NYTIAO</CODEN>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>NYT</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="NYT">
+            <PublisherXID>876291-20120414</PublisherXID>
+         </ObjectID>
+     </ObjectIDs>
+      <LexileScore>1370</LexileScore>
+      <Desk>Foreign Desk</Desk>
+      <Contributors>       
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Barnard, Anne</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Barnard</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Anne</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Anne Barnard</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+     </Contributors>
+      <Terms>       
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Tourism</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Political analysis</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Social conditions &amp; trends</GenSubjValue>
+         </GenSubjTerm>
+         <GenSubjTerm TermSource="ABI" PndxHeader="true">
+            <GenSubjValue>Rebellions</GenSubjValue>
+         </GenSubjTerm>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Geographic>Lebanon</Geographic>
+         </Term>
+         <Term TermSource="ABI" PndxHeader="true">
+            <Geographic>Beirut Lebanon</Geographic>
+         </Term>
+     </Terms>
+      <Abstract>
+         <Medium WordCount="50">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;Ms. Tai, the Iraqi, said she and her brothers moved their accounting business to Beirut in 2004 after their Baghdad neighborhood became a battleground for Islamist militias and American troops.  [...] she said, she would no longer feel safe at home turning heads as she did on the boardwalk.&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>       
+         <MappingVersion>$Header: $</MappingVersion>
+     </LegacyDataMapping>
+   </Obj>
+   <TextInfo>       
+      <Text WordCount="1332" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;BEIRUT, Lebanon -- Down a ramp from Beirut's clamorous seaside road, motor yachts bob along a curving waterfront promenade. Tablecloths gleam white, and bottles of wine sweat in silver coolers. The boardwalk's rough planks, a nod to maritime authenticity, present a design flaw perhaps foreseeable in this city: Women with Louis Vuitton handbags are forever extracting their spike heels from the cracks.&lt;/p&gt;              &lt;p&gt;  This new luxury playground, Zaitunay Bay, is Lebanon's latest effort to recapture the prewar 1960s -- when Brigitte Bardot was a regular and Beirut was a fashionable port of call. But for Arab visitors seeking respite from fear and uncertainty around the region, and for Lebanese content to stay out of the storm, Beirut is already back. &lt;/p&gt;              &lt;p&gt;  "Lebanon brings together the European, the Mediterranean, East and West," said Noor al-Tai, strolling the boardwalk in a leather miniskirt, thigh-high boots and a fur vest, by way of explaining why Beirut was the logical destination when she fled violence at home in Iraq. "There is a very friendly atmosphere."&lt;/p&gt;              &lt;p&gt;  Beirutis barely pause to remark that Zaitunay Bay sits on the Green Line, the boundary between East and West Beirut that was a deadly no-man's land during Lebanon's 15-year civil war. In many Western minds, Lebanon's image remains frozen in old snapshots: sectarian massacres, hostages tied to radiators, the Israeli invasion, smoke billowing from seafront high-rises. But, for the wealthy at least, the country long ago regained its spirit of fun and glamour.&lt;/p&gt;              &lt;p&gt;  Even this city's indefatigable night life cannot completely submerge worries over the grinding conflict in neighboring Syria. But for Arabs tired of the shelling in Homs, the financial crisis in Dubai, or political anxiety in Cairo, Beirut is an eddy of peace.&lt;/p&gt;              &lt;p&gt;  "This country doesn't change -- the people like life," said Sonia Bailouni, a Syrian psychologist sunning herself on the boardwalk.&lt;/p&gt;              &lt;p&gt;  The very divisions that started Lebanon's civil war have may have helped insulate it from the past year's Arab revolts. The war ended in 1990 after a rigid apportioning of power among religious sects. The system is fractious and inefficient but allows dissent and keeps the state weak, with little ability to impose or intimidate. &lt;/p&gt;              &lt;p&gt;  Amid the Lebanese factions' mutual mistrust, there is no single authority to rally against. With Lebanese torn between wistfulness for change and fear of what it could unleash, an uneasy calm prevails.&lt;/p&gt;              &lt;p&gt;  It is not that Beirut's tourism has not suffered. Hotel occupancy is down, standing at 55 percent for the first nine months of 2011, compared with 68 percent in 2010, according to the professional services company Ernst &amp;amp; Young. Many Westerners do not realize that Lebanon is still safe, and fun. Arab and Iranian tourists fear driving through Syria, by far the cheapest route.&lt;/p&gt;              &lt;p&gt;  But the downturn would be much more severe if not for those addicted to Beirut's joie de vivre: the Lebanese diaspora, Saudis and Jordanians on summer pilgrimages to escape the heat, wealthy Beirutis. For those markets, even war with Israel in 2006 was a temporary disruption. &lt;/p&gt;              &lt;p&gt;  Debris from Israeli airstrikes still littered the streets when bars, restaurants and hotels reopened their doors.&lt;/p&gt;              &lt;p&gt;  Then, too, there are benefits for Lebanon in being a refuge. Syrians seeking peace and quiet have helped offset hotel losses, the Lebanese tourism minister told Beirut's Daily Star newspaper: They head to Beirut for the weekend to avoid clashes after Friday Prayer, he said.&lt;/p&gt;              &lt;p&gt;  Beirut is also a destination for capital. Syrian businessmen have moved money to Lebanese banks, and investors fleeing Dubai's crash help keep real estate prices high. Ms. Tai, the Iraqi, said she and her brothers moved their accounting business to Beirut in 2004 after their Baghdad neighborhood became a battleground for Islamist militias and American troops.&lt;/p&gt;              &lt;p&gt;  Besides, she said, she would no longer feel safe at home turning heads as she did on the boardwalk. Her fire-engine-red lipstick and long yellow hair were right at home in Beirut.&lt;/p&gt;              &lt;p&gt;  Ms. Bailouni, the Syrian sitting nearby, has lived in Beirut for years with her Lebanese husband, and now is bringing relatives from Aleppo, Syria, to Lebanon, where, she declared, war will not spread. "We already went through everything and worse," she said. Then she combined Italian and Arabic in a makeshift phrase encapsulating Beirut's mix of nonchalance and cosmopolitanism: "Finito la mishkala!" Loosely translated, "No more problems." &lt;/p&gt;              &lt;p&gt;  Still, there is a hint of longing for the mayhem nearby. Some Lebanese yearn for ferment in a country that for all its fun remains corrupt and stagnant. Even an airport border guard, stamping in a reporter from rebellious Libya, gave a dejected sigh and said, "Nothing is happening here."&lt;/p&gt;              &lt;p&gt;  One Lebanese journalist explained the lack of a "Lebanese Spring" this way: "We're lazy, and we're sectarian."&lt;/p&gt;              &lt;p&gt;  Lebanon's leaders scramble to keep the political peace. Hezbollah, Lebanon's most powerful party, backs Syria's president, Bashar al-Assad. Rival parties favor Syria's rebels, and even the Druse leader Walid Jumblatt, a coalition partner with Hezbollah, calls Mr. Assad a butcher. Yet such disputes barely budge Lebanon's pragmatic politics: the parties are loath to rock the boat as they wrangle for patronage jobs.&lt;/p&gt;              &lt;p&gt;  One sunny afternoon in southern Lebanon, the center of the 2006 war, the only disturbance was the revving of Harley-Davidsons by a convoy of riders enjoying the spring flowers. Yet echoes of conflict can ripple through Beirut's most relaxing places.&lt;/p&gt;              &lt;p&gt;  In West Beirut, Hamra's nightclubs fill with teenagers as usual, but some now donate proceeds to Syrian refugees. Fadel Shaker, a beloved pop singer, shocked some fans when he appeared at a pro-rebel rally with an imam many viewed as extremist.&lt;/p&gt;              &lt;p&gt;  On the Mediterranean corniche, a popular spot where children ride bicycles and couples take sunset walks, Syrian migrants have always polished shoes and served coffee. Now, they whisper that they have fled government shelling, bringing wives and children into Lebanon.&lt;/p&gt;              &lt;p&gt;  On a sofa at Ka'kaya, a cozy cafe, two young men shared a water pipe and watched, on their phones, Syrian videos of bodies and rubble. At Cafe Younes, a haunt of professors with laptops, one coffee drinker berated another for business ties to a Syrian company -- "Even if the public doesn't know, you know!" -- loud enough to turn heads.&lt;/p&gt;              &lt;p&gt;  Cafes may benefit from the crisis, said Wael el-Far, a purveyor of restaurant equipment who had sold high-end espresso machines to several Zaitunay Bay cafes. In tense times, he said, Lebanese "like to drink and spend money."&lt;/p&gt;              &lt;p&gt;  And so they do at Zaitunay Bay. The industrial-chic metal facades at L'Atelier Art Lounge and the Cro Magnon Steakhouse face the boats, not the shell of the Holiday Inn, ravaged by mortars decades ago, or the place where a car bomb killed Rafik Hariri, the former prime minister, in 2005. &lt;/p&gt;              &lt;p&gt;  At the end of the yacht basin looms the Hotel St. George, the 1960s "it" spot, now a derelict hull caught in disputes with Zaitunay Bay's well-connected developers. &lt;/p&gt;              &lt;p&gt;  On the promenade, Dina Erfan, a travel agent from Cairo, air-kissed her Lebanese friends. She had just arrived for a break from Egypt's political suspense.&lt;/p&gt;              &lt;p&gt;  "Where else am I going to go?" she said. "Syria? Libya?"&lt;/p&gt;              &lt;p&gt;  One friend laughed. "Maybe next year," she said. &lt;/p&gt;              &lt;p&gt;  &lt;/p&gt;              &lt;p&gt;Credit: ANNE BARNARD; Hwaida Saad contributed reporting.&lt;/p&gt;              &lt;div&gt;&lt;object class="mstar_text_entity"&gt;&lt;param name="pq_source" value="csx"/&gt;&lt;param name="pq_etype" value="39"/&gt;&lt;param name="mstar_entity_inline" value="N"/&gt;&lt;param name="mstar_entity_type" value="Photograph"/&gt;&lt;div class="Photograph_content"&gt;&lt;p&gt;A Yacht at a Popular Promenade in Beirut, Lebanon. (A1); Beirut has Done Much to Recover From Its 15-Year Civil War, but Many Westerners Appear to Retain Their Negative Image of the City.; the Boardwalk Along Beirut's Waterfront Attracts Both Upper-Class Lebanese and Tourists, Many From Other Arab Countries.; Where the Green Line Once Divided Warring Factions in East and West Beirut, People Are Now Drawn to Cafes and Nightclubs. (Photographs by Ed Ou for the New York Times) (A3)&lt;/p&gt;&lt;/div&gt;&lt;/object&gt;&lt;/div&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+     </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>New York Times</Title>
+         <MpubId>11561</MpubId>
+         <SortTitle>New York Times</SortTitle>
+         <Qualifier>New York, N.Y.</Qualifier>
+         <Edition>Late Edition (East Coast)</Edition>
+         <JournalCode>NYT</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>18570101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>New York Times Company</PublisherName>
+            <PublisherAddress>
+               <Address1>620 8th Ave</Address1>
+               <City>NEW YORK</City>
+               <Province>NY</Province>
+               <ZipCode>10018</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.nytimes.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7818</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>03624331</Name>
+            </Locator>
+            <Locator Type="CODEN">
+               <Name>NYTIAO</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60001.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_OUT</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>New York Times</Title>
+            <SortTitle>New York Times</SortTitle>
+            <Qualifier>New York, N.Y.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Edition>Late Edition (East Coast)</Edition>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7818</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>03624331</Name>
+               </Locator>
+               <Locator Type="CODEN">
+                  <Name>NYTIAO</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60001.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Jun 1, 1980</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <NumericStartDate>19800601</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Apr 14, 2012</AlphaDate>
+         <StartDate>2012-04-14</StartDate>
+         <EndDate>2012-04-14</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>68554482</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+
+      
+   </DFS>
+   
+</RECORD>
