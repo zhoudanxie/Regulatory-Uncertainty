@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>1000164984</GOID>
+   
+   <Obj>
+      <SourceRollupType>Newspapers</SourceRollupType>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">News</other>
+         <mstar>News</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>Deal with traditionalists looks uncertain for pope</Title>
+      </TitleAtt>
+      <NumericDate>2012-04-14</NumericDate>
+      <StartDate>2012-04-14</StartDate>
+      <EndDate>2012-04-14</EndDate>
+      <AlphaDate>Apr 14, 2012</AlphaDate>
+      <Language>       
+         <RawLang>English</RawLang>
+     </Language>
+      <Language IsPrimary="true">       
+         <ISO>         
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+     </Language>
+      <Copyright>
+         <CopyrightData>(Copyright The Washington Post Company, Apr 14, 2012)</CopyrightData>
+      </Copyright>
+      <PrintLocation>       
+         <StartPage>B.2</StartPage>
+         <Pagination>B.2</Pagination>
+         <DocSection>METRO</DocSection>
+         <DocEdition>REGIONAL - Every Zone</DocEdition>
+     </PrintLocation>
+      <ObjectIDs>       
+         <ObjectID IDOrigin="PQ">
+            <DOCID>2633340451</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PCID>68555162</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="PQ">
+            <PMID>7653</PMID>
+         </ObjectID>
+         <ObjectID>
+            <ProvJournalCode>TWP</ProvJournalCode>
+         </ObjectID>
+         <ObjectID IDOrigin="DTI">
+            <PublisherXID>WPXXWP20120414Dealfb89a4c8</PublisherXID>
+         </ObjectID>
+     </ObjectIDs>
+      <LexileScore>1600</LexileScore>
+      <Contributors>       
+         <Contributor ContribOrder="1">
+            <Author>
+               <NormalizedDisplayForm>Speciale, Alessandro</NormalizedDisplayForm>
+               <LastNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <LastName>Speciale</LastName>
+               </LastNameAtt>
+               <FirstNameAtt IsNormalized="true" ContribOrigin="AuthorNormalization">
+                  <FirstName>Alessandro</FirstName>
+               </FirstNameAtt>
+               <OriginalFormAtt ContribOrigin="pqauth">
+                  <OriginalForm>Alessandro Speciale</OriginalForm>
+               </OriginalFormAtt>
+            </Author>
+         </Contributor>
+     </Contributors>
+      <Terms>       
+         <CompanyTerm TermSource="ABI" PndxHeader="true">         
+            <CompanyNameAtt>
+               <CompanyName>Roman Catholic Church</CompanyName>
+            </CompanyNameAtt>
+            <CompanyNAICAtt>
+               <CompanyNAIC>813110</CompanyNAIC>
+            </CompanyNAICAtt>
+         </CompanyTerm>
+     </Terms>
+      <Abstract>
+         <Medium WordCount="11">
+            <AbsText HTMLContent="true">          &lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;[...] Benedict has dealt with the Lefebvrist issue for decades. &lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</AbsText>
+         </Medium>
+      </Abstract>
+      <LegacyDataMapping>       
+         <MappingVersion>$Header: $</MappingVersion>
+     </LegacyDataMapping>
+   </Obj>
+   <TextInfo>       
+      <Text WordCount="680" HTMLContent="true">&lt;html&gt;            &lt;head&gt;              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;              &lt;title/&gt;            &lt;/head&gt;            &lt;body&gt;              &lt;p&gt;When Pope Benedict XVI chose in 2009 to lift the excommunications of four bishops from a conservative schismatic group, few would have thought the news would generate headlines worldwide.&lt;/p&gt;              &lt;p&gt;But Benedict's gesture received outsize attention when one of the four bishops, Richard Williamson, did a television interview and denied that millions of Jews had died in gas chambers at Nazi death camps. Not only were Jews outraged but so were more than a few Catholics.&lt;/p&gt;              &lt;p&gt;As the Vatican worked to reassure Jews that Williamson's views were not its own, steps were underway to achieve the real goal of Benedict's move: full reconciliation with the traditionalist group, known as the Society of St. Pius X (SSPX), and an end to the most significant schism within the Roman Catholic Church in a half-century.&lt;/p&gt;              &lt;p&gt;Now, after more than two years of secret negotiations, the SSPX is due in mid-April to give its response to the Vatican's final offer for reconciliation, which was delivered in September.&lt;/p&gt;              &lt;p&gt;Regardless of whether the group accepts the pope's olive branch - and his insistence that SSPX give some sort of recognition to the modernizing reforms of the Second Vatican Council (1962-65) - the outcome is bound to have a profound impact on Benedict's papacy and on the larger Catholic Church.&lt;/p&gt;              &lt;p&gt;While the group remains small, with about 500 priests and a few thousand followers around the world, the issues at play are at the core of the Catholic Church's identity in the modern world. And success or failure could impact Benedict's legacy.&lt;/p&gt;              &lt;p&gt;The SSPX rejects most of the reforms of Vatican II, which revolutionized Catholic doctrine on everything from relations with other Christian churches to interfaith dialogue to the role of rank-and-file lay Catholics. The Lefebvrists (as the group is known after its founder, the late Archbishop Marcel Lefebvre) charge that the Catholic Church turned its back on centuries of traditions and precepts, and is now too accommodating toward the modern world.&lt;/p&gt;              &lt;p&gt;But for Benedict, reconciliation with the SSPX is not just a matter of doctrine.&lt;/p&gt;              &lt;p&gt;"Pope Benedict has staked a lot on his attempt to heal this breach; it will be one of the things that will mark his pontificate," said Antoine-Marie Izoard, a French Vatican analyst with the I.Media news agency.&lt;/p&gt;              &lt;p&gt;Nevertheless, the Rev. Nicola Bux, a consultant at the Vatican's Congregation for the Doctrine of the Faith, said that the pope's gamble should not be read in "political" terms of left vs. right.&lt;/p&gt;              &lt;p&gt;"He has worked with patience and meekness, as a Christian would, believing that this division can be overcome," Bux said.&lt;/p&gt;              &lt;p&gt;In fact, Benedict has dealt with the Lefebvrist issue for decades. As Cardinal Joseph Ratzinger, Benedict tried to avoid the group's formal split with Rome in 1988. In 2006, a year after his election as pope, Benedict reinstated the ancient Latin Mass that is still cherished by the Lefebvrists, saying it could exist together with the modern Vatican II Mass.&lt;/p&gt;              &lt;p&gt;Benedict's conciliatory moves toward the SSPX have been received with suspicion - and sometimes bitter resentment - by many in the Catholic Church who fear that some of the Vatican II reforms could be put in doubt if an agreement is reached with the traditionalists.&lt;/p&gt;              &lt;p&gt;Having invested so much, both personally and publicly, in reconciliation with the Lefebvrists, Benedict has so far received mixed messages from the group.&lt;/p&gt;              &lt;p&gt;In a sermon in November, their leader, Bishop Bernard Fellay, said that the SSPX felt "obliged to reject" the Vatican's offer, citing doctrinal reasons. In recent months, he's signaled that his position may have mellowed, but the group has stated that it will not accept Vatican II reforms - even though that was one of the original conditions for reconciliation set out by Benedict.&lt;/p&gt;              &lt;p&gt;Gianni Gennari, a theologian and former priest, said even the pope is disillusioned with the Lefebvrists.&lt;/p&gt;              &lt;p&gt;"He held out his hand," Gennari said. "Now he wants to make it clear that it is them who do not want an agreement."&lt;/p&gt;              &lt;p&gt;- Religion News Service&lt;/p&gt;              &lt;p&gt;Credit: Alessandro Speciale; Religion News Service&lt;/p&gt;            &lt;/body&gt;          &lt;/html&gt;</Text>
+     </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>The Washington Post</Title>
+         <MpubId>10327</MpubId>
+         <SortTitle>Washington Post The</SortTitle>
+         <Qualifier>Washington, D.C.</Qualifier>
+         <JournalCode>TWP</JournalCode>
+         <SourceType>Newspapers</SourceType>
+         <StartDate>19740101</StartDate>
+         <EndDate>99991231</EndDate>
+         <publisher>
+            <PublisherName>WP Company LLC d/b/a The Washington Post</PublisherName>
+            <PublisherAddress>
+               <Address1>Newsweek Interactive Co</Address1>
+               <Address2>1301 K Street, N.W.</Address2>
+               <City>Washington</City>
+               <Province>DC</Province>
+               <ZipCode>20071</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+            <URL>http://www.washingtonpost.com/</URL>
+         </publisher>
+         <Locators>
+            <Locator Type="PQPMID">
+               <Name>7653</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>01908286</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>60208.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">Y</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PEERREVIEWEDFLAG">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>General Interest Periodicals--United States</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>The Washington Post</Title>
+            <SortTitle>Washington Post The</SortTitle>
+            <Qualifier>Washington, D.C.</Qualifier>
+            <EndIssueDate>99991231</EndIssueDate>
+            <Locators>
+               <Locator Type="PQPMID">
+                  <Name>7653</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>01908286</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>60208.00</CatalogNum>
+         </CurrentTitle>
+         <PubHistory>
+            <History>
+               <Title>The Washington Post</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19540317</EndIssueDate>
+               <CatalogNum>60208.A0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post, Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19731231</EndIssueDate>
+               <CatalogNum>60208.C0</CatalogNum>
+            </History>
+            <History>
+               <Title>The Washington Post and Times Herald</Title>
+               <Qualifier>Washington, D.C.</Qualifier>
+               <EndIssueDate>19590827</EndIssueDate>
+               <CatalogNum>60208.B0</CatalogNum>
+            </History>
+         </PubHistory>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>0</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Feb 01, 1988</AlphaStartDate>
+            <AlphaEndDate>Current</AlphaEndDate>
+            <StartVolume>111</StartVolume>
+            <StartIssue>58</StartIssue>
+            <NumericStartDate>19880201</NumericStartDate>
+            <NumericEndDate>99990101</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_DEFAULT</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Apr 14, 2012</AlphaDate>
+         <StartDate>2012-04-14</StartDate>
+         <EndDate>2012-04-14</EndDate>
+         <Locators>
+            <Locator Type="PQPCID">
+               <Name>68555162</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+
+      
+   </DFS>
+   
+</RECORD>
