@@ -116,6 +116,7 @@ def find_keyword(keywords):
     rel_list=[]
     for text in df['Text']:
         text = text.replace('\n', ' ').replace('\r', '')
+        text=remove_spaces(text)
         text_token = word_tokenize(text)
         text_token = [w for w in text_token if w not in punctuation]
         text_stem=text
@@ -132,7 +133,7 @@ def find_keyword(keywords):
             else:
                 match=''
         rel_list.append(rel)
-        print(rel,match)
+        #print(rel,match)
     return rel_list
 
 df['relUncertain']=find_keyword(uncertainStem)
