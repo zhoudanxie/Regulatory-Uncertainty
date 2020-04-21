@@ -140,3 +140,50 @@ df['relUncertain']=find_keyword(uncertainStem)
 df['relEcon']=find_keyword(econStem)
 df['relPolicy']=find_keyword(policyStem)
 df['relRegulation']=find_keyword(regulationStem)
+df.to_pickle('Data/TDM Studio/Sample XML/parsed_xml_BBD.pkl')
+
+#---------------------------------------------Aggregate Data-----------------------------------------------------------
+import datetime
+
+df=pd.read_pickle('Data/TDM Studio/Sample XML/parsed_xml_BBD.pkl')
+print(df.info())
+
+# Limit data to news only
+df=df[df['Type']=='News'].reset_index(drop=True)
+
+# Convert dates
+df['StartDate']=df['StartDate'].astype('datetime64[ns]')
+df['EndDate']=df['EndDate'].astype('datetime64[ns]')
+df['Year']=df['StartDate'].astype('datetime64[ns]').dt.year
+df['Month']=df['StartDate'].astype('datetime64[ns]').dt.month
+
+# Clean duplicated news articles due to overlapped databases
+df=df[((df['PubbTitle']=='The Washington Post') & (df['StartDate']>datetime.datetime(1996,12,3)))
+                  | (df['PubbTitle']!='The Washington Post')]
+df=df[((df['PubbTitle']=='Los Angeles Times') & (df['StartDate']>datetime.datetime(1996,12,3)))
+                  | (df['PubbTitle']!='Los Angeles Times')]
+df=df[((df['PubbTitle']=='Chicago Tribune') & (df['StartDate']>datetime.datetime(1996,12,3)))
+                  | (df['PubbTitle']!='Chicago Tribune')]
+
+df.loc[df['PubbTitle']=='New York Times','Newspaper']='New York Times'
+df.loc[(df['PubbTitle']=='The Washington Post') | (df['PubbTitle']=='The Washington Post (pre-1997 Fulltext)'),
+    'Newspaper']='The Washington Post'
+df.loc[(df['PubbTitle']=='Los Angeles Times') | (df['PubbTitle']=='Los Angeles Times (pre-1997 Fulltext)'),
+    'Newspaper']='Los Angeles Times'
+df.loc[(df['PubbTitle']=='Chicago Tribune') | (df['PubbTitle']=='Chicago Tribune (pre-1997 Fulltext)'),
+    'Newspaper']='Chicago Tribune'
+
+# Articles with keywords in EU, PU, EPU, RPU, REPU
+df.loc[(df['relUncertain']==1) & (df['relEcon']==1),'relEU']=1
+df.loc[(df['relUncertain']==1) & (df['relPolicy']==1),'relPU']=1
+df.loc[(df['relUncertain']==1) & (df['relEcon']==1) & (df['relPolicy']==1),'relEPU']=1
+df.loc[(df['relUncertain']==1) & (df['relPolicy']==1) & (df['relRegulation']==1),'relRPU']=1
+df.loc[(df['relUncertain']==1) & (df['relPolicy']==1) & (df['relEcon']==1) & (df['relRegulation']==1),'relREPU']=1
+
+df.to_pickle('Data/TDM Studio/Sample XML/parsed_xml_BBD_clean.pkl')
+
+# Generate daily count
+dailyCount=df[['Newspaper','StartDate','relUncertain','relEcon','relPolicy','relRegulation','relEU',
+               'relPU','relEPU','relRPU','relREPU']].groupby(['Newspaper','StartDate']).agg('sum').reset_index()
+monthlyCount=df[['Newspaper','Year','Month','relUncertain','relEcon','relPolicy','relRegulation','relEU',
+               'relPU','relEPU','relRPU','relREPU']].groupby(['Newspaper','Year','Month']).agg('sum').reset_index()
