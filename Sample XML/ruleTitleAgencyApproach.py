@@ -1,5 +1,4 @@
 #----------------------------------------------Rule Title & Agency Approach---------------------------------------------
-# Import packages
 import pandas as pd
 import os
 import re
@@ -10,6 +9,7 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 porter = PorterStemmer()
 from string import punctuation
+from ast import literal_eval
 
 # Keep only meaningful words in rule titles
 es_rules=pd.read_excel('Data/TDM Studio/Sample XML/es_rules.xlsx')
@@ -27,16 +27,17 @@ for text in es_rules['rule_title']:
 es_rules['title_words']=title_words
 es_rules.to_excel('Data/TDM Studio/Sample XML/rule_titles.xlsx',index=False)
 
+# Function to remove multiple spaces
+def remove_spaces(text):
+    text=re.sub(' +',' ',text).strip()
+    return text
 
 # Function to match whole words (case sensitive)
 def findWholeWord(w):
     return re.compile(r'\b({0})\b'.format(w)).search
 
 # Function to determine if a sentence contains 3+ tokens in a list
-def sent_search_title(sent,title):
-    sent_token=word_tokenize(sent.lower())
-    sent_token=[w for w in sent_token if w not in punctuation]
-    sent_stem= [porter.stem(word) for word in sent_token]
+def sent_search_title(sent_stem,title):
     title_stem=[porter.stem(word.lower()) for word in title]
     rel=0
     match=len({w for w in sent_stem if w in title_stem})
@@ -50,6 +51,8 @@ def sent_search_title(sent,title):
 
 # Find rule title and agency name in text
 df=pd.read_pickle('Data/TDM Studio/Sample XML/parsed_xml_BBD_clean.pkl')
+es_rules=pd.read_excel('Data/TDM Studio/Sample XML/rule_titles.xlsx')
+es_rules.loc[:,'title_words'] = es_rules.loc[:,'title_words'].apply(lambda x: literal_eval(x))
 es_rules=es_rules.reset_index(drop=True)
 
 has_title=[]
@@ -62,17 +65,20 @@ for text in df['Text']:
     rel=0
     stop=False
     for sent in text_sentence:
+        sent_token = word_tokenize(sent.lower())
+        sent_token = [w for w in sent_token if w not in punctuation]
+        sent_stem = [porter.stem(word) for word in sent_token]
         index=0
         for title in es_rules['title_words']:
             if len(title)>1:
-                if sent_search_title(sent,title)==1:
+                if sent_search_title(sent_stem,title)==1:
                     sent_rel=1
                     agency_name=es_rules['agency_name'][index]
                     dept_name=es_rules['department_name'][index]
                     agency_acronym=es_rules['agency_acronym'][index]
                     dept_acronym=es_rules['department_acronym'][index]
-                    if (findWholeWord(agency_name)(text.lower())!=None) | (findWholeWord(dept_name)(text.lower())!=None) | \
-                            (findWholeWord(agency_acronym)(text)!=None) | (findWholeWord(dept_acronym)(text)!=None):
+                    if (findWholeWord(agency_acronym)(text)!=None) | (findWholeWord(dept_acronym)(text)!=None) | \
+                            (findWholeWord(agency_name)(text.lower()) != None) | (findWholeWord(dept_name)(text.lower())!=None):
                         rel=1
                         stop=True
                         break
