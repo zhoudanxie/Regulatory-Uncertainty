@@ -1,6 +1,10 @@
 #-------------------------------------------------Topic Modeling-------------------------------------------------------#
 #---------------------------------------------------April 2020---------------------------------------------------------#
 
+# References:
+# https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+# https://www.machinelearningplus.com/nlp/topic-modeling-visualization-how-to-present-results-lda-models/
+
 # Import packages
 import pandas as pd
 import os
