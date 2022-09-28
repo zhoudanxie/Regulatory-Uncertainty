@@ -1,0 +1,1 @@
+### This folder contains the code used for the GW Regulatory Studies Center commentary "[Regulatory Policy Uncertainty under COVID-19](https://regulatorystudies.columbian.gwu.edu/regulatory-policy-uncertainty-under-covid-19)" (July 6, 2020).
